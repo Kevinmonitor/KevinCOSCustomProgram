@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BulletObject
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: enemy
+    uniqueID: 3135265683
+    locked: 0
+  - name: player
+    uniqueID: 3984830421
+    locked: 0
+  - name: playerShot
+    uniqueID: 2905966371
+    locked: 0
+  - name: enemyShot
+    uniqueID: 1983200473
+    locked: 0
+  - name: enemyHitbox
+    uniqueID: 1823595793
+    locked: 0
+  - name: playerHitbox
+    uniqueID: 115622311
+    locked: 0
+  - name: bulletHitbox
+    uniqueID: 252237517
+    locked: 0

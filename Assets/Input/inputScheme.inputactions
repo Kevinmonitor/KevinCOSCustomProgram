@@ -1,0 +1,46 @@
+{
+    "name": "inputScheme",
+    "maps": [
+        {
+            "name": "PlayerShooting",
+            "id": "ce598f27-af81-4715-94a4-7979ae7b6e53",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "PassThrough",
+                    "id": "8386016b-ebb0-4165-a9f2-63736eb1ee2a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "97f74b31-4fff-4117-a243-f8515183a8a8",
+                    "path": "<Keyboard>/#(Z)",
+                    "interactions": "Hold(duration=0.01,pressPoint=0.01)",
+                    "processors": "",
+                    "groups": "KeyboardControl",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyboardControl",
+            "bindingGroup": "KeyboardControl",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
