@@ -81,6 +81,11 @@ public class objGameManager : MonoBehaviour
 		objPooler.SetupPool(playerBulletPrefab, 50, "objPlayerShot");
 	}
 
+	public void Initialise(){
+		SetLives(3);
+		playerScore = 0;
+		scoreText.text = "0";
+	}
 	public void CreateExplosion(Vector2 spawnPosition){
 
 		GameObject boom = (GameObject)Instantiate(explosionPrefab);
