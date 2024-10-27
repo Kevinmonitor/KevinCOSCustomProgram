@@ -289,7 +289,7 @@ MonoBehaviour:
         asset: {fileID: 102900000, guid: d27cafcf655e72d499a7ae994872a8c4, type: 3}
         guid: d27cafcf655e72d499a7ae994872a8c4
       SceneType: 1
-  - GroupName: Scoreboard
+  - GroupName: ScoreboardDreamlo
     Scenes:
     - Reference:
         asset: {fileID: 102900000, guid: e11c7e81501ef4e47ac80cddf44d7237, type: 3}
@@ -298,6 +298,26 @@ MonoBehaviour:
     - Reference:
         asset: {fileID: 102900000, guid: 345a78f4e2ebcce408edc1b2075fb9b3, type: 3}
         guid: 345a78f4e2ebcce408edc1b2075fb9b3
+      SceneType: 1
+  - GroupName: ScoreboardUnity
+    Scenes:
+    - Reference:
+        asset: {fileID: 102900000, guid: e11c7e81501ef4e47ac80cddf44d7237, type: 3}
+        guid: e11c7e81501ef4e47ac80cddf44d7237
+      SceneType: 0
+    - Reference:
+        asset: {fileID: 102900000, guid: a444a89febfec9d40a2fb9cbcf24bc6b, type: 3}
+        guid: a444a89febfec9d40a2fb9cbcf24bc6b
+      SceneType: 1
+  - GroupName: Scoreboard1Minute
+    Scenes:
+    - Reference:
+        asset: {fileID: 102900000, guid: e11c7e81501ef4e47ac80cddf44d7237, type: 3}
+        guid: e11c7e81501ef4e47ac80cddf44d7237
+      SceneType: 0
+    - Reference:
+        asset: {fileID: 102900000, guid: 42285ac02b3ccb143ada80f29cacaeb4, type: 3}
+        guid: 42285ac02b3ccb143ada80f29cacaeb4
       SceneType: 1
 --- !u!1 &1550496867
 GameObject:

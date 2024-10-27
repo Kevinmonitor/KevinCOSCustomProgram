@@ -29,5 +29,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/sceneLeaderboards.unity
     guid: 345a78f4e2ebcce408edc1b2075fb9b3
+  - enabled: 1
+    path: Assets/Scenes/sceneLeaderboardsUnity.unity
+    guid: a444a89febfec9d40a2fb9cbcf24bc6b
+  - enabled: 1
+    path: Assets/Scenes/sceneLeaderboardsDanqzq.unity
+    guid: 42285ac02b3ccb143ada80f29cacaeb4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

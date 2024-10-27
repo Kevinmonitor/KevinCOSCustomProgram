@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 public class InputHandler : MonoBehaviour
 {
-    [SerializeField] TMP_InputField inputField;
+    [SerializeField] TMP_Text inputName;
     [SerializeField] TMP_Text resultText;
 
     public void ValidateInput(){
-        string input = inputField.text;
+        string input = inputName.text;
 
         if(input.Length < 3)
         {
@@ -31,6 +31,6 @@ public class InputHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ValidateInput();
     }
 }
