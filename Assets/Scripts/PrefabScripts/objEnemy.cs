@@ -4,39 +4,75 @@ using UnityEngine;
 
 public class objEnemy : MonoBehaviour
 {
-    float speed;
-    public GameObject objEnemyShot;
 
-    float timer = 0;
-    float angle = 90;
+    private float _speed = 3f;
+    [SerializeField] private GameObject objEnemyShot;
 
-    public float enemyHitbox = 20f;
-    public float enemyMaxHP = 100f;
+    private float enemyHitbox = 0.75f;
+    [SerializeField] private float enemyMaxHP = 100f;
     private float enemyCurrentHP = 1f;
 
+    private float enemyInv = 0.2f;
+    private float timer = 0f;
+
     public void TakeDamage(float damage){
+        if (timer < enemyInv) {damage = 0;}
         enemyCurrentHP -= damage;
     }
 
-    public void CheckEnemyDeath(){
-        if (enemyCurrentHP > 0f) {return;}
-        else{
-
-            int score = objGameManager.Instance.CalculateScore(this, objPlayer.Instance.playerHitbox * 100f, 10, 1000);
-            objGameManager.Instance.AddScore(score);
-
-            objGameManager.Instance.CreateExplosion(transform.position);
-            Destroy(gameObject);
-            
-        }
+    public void SetHP(float value){
+        enemyCurrentHP = value;
     }
 
+    public float GetHP(){
+        return enemyCurrentHP;
+    }
+
+    public void RemoveEnemy()
+    {
+        objPooler.EnqueueObject(this, "objEnemy");
+    }
+
+    public void EnemyDeath(){
+        int score = objGameManager.Instance.CalculateScore(this, objPlayer.Instance.playerHitbox * 100f, 10, 1000);
+        objGameManager.Instance.AddScore(score);
+        objGameManager.Instance.CreateExplosion(transform.position);
+        RemoveEnemy();
+    }
+
+    // misc properties
+
+    public void SetSpeed(float value){
+        _speed = value;
+    }
+
+    public void SetAngle(float value){
+        transform.rotation = Quaternion.AngleAxis(value, Vector3.forward);
+    }
+
+    public void SetHitbox(float value){
+        enemyHitbox = value;
+    }
+
+    public float GetSpeed(){
+        return _speed;
+    }
+
+    public Quaternion GetAngle(){
+        return transform.rotation;
+    }
+
+    public float GetHitbox(){
+        return enemyHitbox;
+    }
+    
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         enemyCurrentHP = enemyMaxHP;
-        speed = 5f;
-        timer = 0.5f;
+        transform.rotation = Quaternion.AngleAxis(180, Vector3.forward);
+        _speed = 5f;
     }
 
     // Update is called once per frame
@@ -51,30 +87,18 @@ public class objEnemy : MonoBehaviour
     void Update()
     {
 
-        Vector2 position = transform.position;
-        position = new Vector2(position.x, position.y - speed * Time.deltaTime);
-        transform.position = position;
+        timer += enemyInv/15f;
+        transform.Translate(Vector3.up * _speed * Time.deltaTime);
 
-        Vector2 min = Camera.main.ViewportToWorldPoint (new Vector2 (0, 0));
+        Vector2 currentWorldPosition = Camera.main.WorldToViewportPoint(transform.position);
 
-        timer -= Time.deltaTime;
-        if(timer < 0)
+        if (
+            currentWorldPosition.x < -0.5 || currentWorldPosition.x > 1.25 ||
+            currentWorldPosition.y < -0.5 || currentWorldPosition.y > 1.25
+        )
         {
-            timer = 0.5f;
-
-            if(objPlayer.Instance != null){
-                Vector3 dir = objPlayer.Instance.transform.position - transform.position;
-                angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;
-            }
-
-            fireBullet(transform.position, angle);
+            RemoveEnemy();
         }
-
-        if (transform.position.y < min.y * 1.25 || transform.position.x < min.x * 1.25)
-        {
-            Destroy(gameObject);
-        }
-        else CheckEnemyDeath();
 
     }
 

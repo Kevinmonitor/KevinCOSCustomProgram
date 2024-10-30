@@ -1,0 +1,1265 @@
+fileFormatVersion: 2
+guid: 49a129cf6f3522d40880fa205ed91314
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4611305007448599177
+    second: bgLayer2_0
+  - first:
+      213: 6612886785553834986
+    second: bgLayer2_1
+  - first:
+      213: 4480782564289913644
+    second: bgLayer2_2
+  - first:
+      213: 3891393204774276710
+    second: bgLayer2_3
+  - first:
+      213: -1986024065132204881
+    second: bgLayer2_4
+  - first:
+      213: -9059210784164662586
+    second: bgLayer2_5
+  - first:
+      213: 3316170515674545889
+    second: bgLayer2_6
+  - first:
+      213: -8067859794194237113
+    second: bgLayer2_7
+  - first:
+      213: -6736554320641085546
+    second: bgLayer2_8
+  - first:
+      213: -72404417067580687
+    second: bgLayer2_9
+  - first:
+      213: 7690575635114902942
+    second: bgLayer2_10
+  - first:
+      213: 8179587606605334199
+    second: bgLayer2_11
+  - first:
+      213: 2477520249303899093
+    second: bgLayer2_12
+  - first:
+      213: 8971534510372217322
+    second: bgLayer2_13
+  - first:
+      213: 8565636143576485676
+    second: bgLayer2_14
+  - first:
+      213: -1596035354933215476
+    second: bgLayer2_15
+  - first:
+      213: -2996208024843242052
+    second: bgLayer2_16
+  - first:
+      213: 2846279246370884369
+    second: bgLayer2_17
+  - first:
+      213: -6966514620729004289
+    second: bgLayer2_18
+  - first:
+      213: 1131201434852438870
+    second: bgLayer2_19
+  - first:
+      213: 4547986455038853316
+    second: bgLayer2_20
+  - first:
+      213: 3989777586950027014
+    second: bgLayer2_21
+  - first:
+      213: -477137976204364194
+    second: bgLayer2_22
+  - first:
+      213: 4689078733637487045
+    second: bgLayer2_23
+  - first:
+      213: 6884101727901612621
+    second: bgLayer2_24
+  - first:
+      213: -9200781401768261563
+    second: bgLayer2_25
+  - first:
+      213: 2622396457671644939
+    second: bgLayer2_26
+  - first:
+      213: -8693673413748788423
+    second: bgLayer2_27
+  - first:
+      213: 1875271766960813674
+    second: bgLayer2_28
+  - first:
+      213: 5512551422308651396
+    second: bgLayer2_29
+  - first:
+      213: -847962209772029151
+    second: bgLayer2_30
+  - first:
+      213: -6164450475001303566
+    second: bgLayer2_31
+  - first:
+      213: 4442101861401023667
+    second: bgLayer2_32
+  - first:
+      213: -4224503320170487987
+    second: bgLayer2_33
+  - first:
+      213: 769775838030111796
+    second: bgLayer2_34
+  - first:
+      213: -2523958488451220400
+    second: bgLayer2_35
+  - first:
+      213: 3204728067912045843
+    second: bgLayer2_36
+  - first:
+      213: 6660236304505505121
+    second: bgLayer2_37
+  - first:
+      213: 1630253259168514625
+    second: bgLayer2_38
+  - first:
+      213: 7828622277178223782
+    second: bgLayer2_39
+  - first:
+      213: 346752531657899278
+    second: bgLayer2_40
+  - first:
+      213: 1975207232604596925
+    second: bgLayer2_41
+  - first:
+      213: -806588197825559083
+    second: bgLayer2_42
+  - first:
+      213: 2854065545942830158
+    second: bgLayer2_43
+  - first:
+      213: -3894909090795911568
+    second: bgLayer2_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bgLayer2_0
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1084
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775db08078a5100c0800000000000000
+      internalID: -4611305007448599177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1064
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3afc0be71b5cb50800000000000000
+      internalID: 6612886785553834986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_2
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1074
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23a3448000fe2e30800000000000000
+      internalID: 4480782564289913644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_3
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1039
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e80f39081010630800000000000000
+      internalID: 3891393204774276710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_4
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1044
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facea6a92a93074e0800000000000000
+      internalID: -1986024065132204881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_5
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 989
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c23a702ac7374280800000000000000
+      internalID: -9059210784164662586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_6
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 969
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eeb761a387650e20800000000000000
+      internalID: 3316170515674545889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_7
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 924
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74975653344390090800000000000000
+      internalID: -8067859794194237113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_8
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 904
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fa0148983f282a0800000000000000
+      internalID: -6736554320641085546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_9
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 899
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f28488f094cefef0800000000000000
+      internalID: -72404417067580687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 864
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e954c413bc96aba60800000000000000
+      internalID: 7690575635114902942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_11
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 849
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b606e4479bb38170800000000000000
+      internalID: 8179587606605334199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_12
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 829
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db989f4a8be16220800000000000000
+      internalID: 2477520249303899093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_13
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 819
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1e4ec9a1b418c70800000000000000
+      internalID: 8971534510372217322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_14
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 779
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f8f1d90b04fd670800000000000000
+      internalID: 8565636143576485676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_15
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 784
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fbd340d4eb9d9e0800000000000000
+      internalID: -1596035354933215476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_16
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 749
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb53b0e0da45b66d0800000000000000
+      internalID: -2996208024843242052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 689
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bc083f4e3008720800000000000000
+      internalID: 2846279246370884369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 674
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffee1e4dcd7f15f90800000000000000
+      internalID: -6966514620729004289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_19
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 689
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653bacd26b5d2bf00800000000000000
+      internalID: 1131201434852438870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_20
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 659
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c001e7a591bd1f30800000000000000
+      internalID: 4547986455038853316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_21
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 599
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b8fa93998e5730800000000000000
+      internalID: 3989777586950027014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_22
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 594
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e567d73e98dd069f0800000000000000
+      internalID: -477137976204364194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_23
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 524
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c90d42b344f21140800000000000000
+      internalID: 4689078733637487045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 494
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a7a394c0e398f50800000000000000
+      internalID: 6884101727901612621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 489
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548059b1012405080800000000000000
+      internalID: -9200781401768261563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_26
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 494
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07d2c72faf946420800000000000000
+      internalID: 2622396457671644939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_27
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 449
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933fe3c571ed95780800000000000000
+      internalID: -8693673413748788423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_28
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 409
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66b4078cbd460a10800000000000000
+      internalID: 1875271766960813674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_29
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 414
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48118c4df44808c40800000000000000
+      internalID: 5512551422308651396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_30
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 349
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b3597ecde6b34f0800000000000000
+      internalID: -847962209772029151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_31
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 344
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd2f0224f8737aa0800000000000000
+      internalID: -6164450475001303566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_32
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 274
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4d8e09b1485ad30800000000000000
+      internalID: 4442101861401023667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_33
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 264
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f97c8dc9c8f55c0800000000000000
+      internalID: -4224503320170487987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_34
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 264
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434a676db0bceaa00800000000000000
+      internalID: 769775838030111796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_35
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c7804902919fcd0800000000000000
+      internalID: -2523958488451220400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_36
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 214
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3151f99c23b797c20800000000000000
+      internalID: 3204728067912045843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_37
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 104
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165063aa1a9ed6c50800000000000000
+      internalID: 6660236304505505121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_38
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 99
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14289a6a3b2df9610800000000000000
+      internalID: 1630253259168514625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_39
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 89
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aceae7bb7ad4ac60800000000000000
+      internalID: 7828622277178223782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_40
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 104
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dbf622799efc400800000000000000
+      internalID: 346752531657899278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_41
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 69
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbaed215388596b10800000000000000
+      internalID: 1975207232604596925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_42
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5c59cbe4c6ec4f0800000000000000
+      internalID: -806588197825559083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_43
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 69
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c8a971e7dab9720800000000000000
+      internalID: 2854065545942830158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgLayer2_44
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 9
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0768baa61d082f9c0800000000000000
+      internalID: -3894909090795911568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bgLayer2_0: -4611305007448599177
+      bgLayer2_1: 6612886785553834986
+      bgLayer2_10: 7690575635114902942
+      bgLayer2_11: 8179587606605334199
+      bgLayer2_12: 2477520249303899093
+      bgLayer2_13: 8971534510372217322
+      bgLayer2_14: 8565636143576485676
+      bgLayer2_15: -1596035354933215476
+      bgLayer2_16: -2996208024843242052
+      bgLayer2_17: 2846279246370884369
+      bgLayer2_18: -6966514620729004289
+      bgLayer2_19: 1131201434852438870
+      bgLayer2_2: 4480782564289913644
+      bgLayer2_20: 4547986455038853316
+      bgLayer2_21: 3989777586950027014
+      bgLayer2_22: -477137976204364194
+      bgLayer2_23: 4689078733637487045
+      bgLayer2_24: 6884101727901612621
+      bgLayer2_25: -9200781401768261563
+      bgLayer2_26: 2622396457671644939
+      bgLayer2_27: -8693673413748788423
+      bgLayer2_28: 1875271766960813674
+      bgLayer2_29: 5512551422308651396
+      bgLayer2_3: 3891393204774276710
+      bgLayer2_30: -847962209772029151
+      bgLayer2_31: -6164450475001303566
+      bgLayer2_32: 4442101861401023667
+      bgLayer2_33: -4224503320170487987
+      bgLayer2_34: 769775838030111796
+      bgLayer2_35: -2523958488451220400
+      bgLayer2_36: 3204728067912045843
+      bgLayer2_37: 6660236304505505121
+      bgLayer2_38: 1630253259168514625
+      bgLayer2_39: 7828622277178223782
+      bgLayer2_4: -1986024065132204881
+      bgLayer2_40: 346752531657899278
+      bgLayer2_41: 1975207232604596925
+      bgLayer2_42: -806588197825559083
+      bgLayer2_43: 2854065545942830158
+      bgLayer2_44: -3894909090795911568
+      bgLayer2_5: -9059210784164662586
+      bgLayer2_6: 3316170515674545889
+      bgLayer2_7: -8067859794194237113
+      bgLayer2_8: -6736554320641085546
+      bgLayer2_9: -72404417067580687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -35,13 +35,12 @@ public abstract class objShot : MonoBehaviour
     
     public void UpdateObjectState(){
 
-        Vector2 max = Camera.main.ViewportToWorldPoint(new Vector2(1, 1));
-        Vector2 min = Camera.main.ViewportToWorldPoint(new Vector2(0, 0));
+        Vector2 currentWorldPosition = Camera.main.WorldToViewportPoint(transform.position);
 
         if(
-            (transform.position.x < min.x) || (transform.position.x > max.x) 
-            ||
-            (transform.position.y < min.y) || (transform.position.y > max.y))
+            currentWorldPosition.x < -0.2f || currentWorldPosition.x > 1.2f ||
+            currentWorldPosition.y < -0.2f || currentWorldPosition.y > 1.2f
+        )
         {
             DeleteBullet();
         }

@@ -32,7 +32,7 @@ public class objBulletManager : MonoBehaviour
     // enemy bullet colliding with player?
     public bool CheckEnemyShotCollision(objEnemyShot target){
 
-        if (!target.gameObject.activeSelf) { return false; }
+        if (!target.gameObject.activeSelf || objPlayer.Instance == null) { return false; }
 
         var rad = objPlayer.Instance.playerHitbox + target.GetHitbox();
         var offset = objPlayer.Instance.transform.position - target.transform.position;
@@ -42,9 +42,12 @@ public class objBulletManager : MonoBehaviour
 
     public bool CheckPlayerShotCollision(objPlayerShot bullet, objEnemy target){
 
-        if (!bullet.gameObject.activeSelf) { return false; }
+        if (
+            !bullet.gameObject.activeSelf || !target.gameObject.activeSelf 
+            || objPlayer.Instance == null
+        ) { return false; }
 
-        var rad = bullet.GetHitbox() + target.enemyHitbox;
+        var rad = bullet.GetHitbox() + target.GetHitbox();
         var offset = bullet.transform.position - target.transform.position;
         return offset.sqrMagnitude < (rad * rad); // true = collision
 
@@ -55,14 +58,6 @@ public class objBulletManager : MonoBehaviour
     // check bullet collisions
     void Update()
     {
-        // if (time >= timer){
-        //     Debug.Log("checking");
-        //     time = 0;
-        // }
-        // else{
-        //     time += 0.1f;
-        // }
-        
         // check in the pool of bullets
 
         // if enemy hits player: 
@@ -70,27 +65,33 @@ public class objBulletManager : MonoBehaviour
         // player take damage
         // enable player invincibility
 
-        foreach (objEnemyShot shot in objGameManager.Instance.enemyShots)
-        {
-            if(CheckEnemyShotCollision(shot)){
-                objPlayer.Instance.TakeDamage();
-                shot.DeleteBullet();
+        if(!objGameManager.Instance.isGameOver){
+
+            foreach (objEnemyShot shot in objGameManager.Instance.enemyShots)
+            {
+                if(CheckEnemyShotCollision(shot)){
+                    objPlayer.Instance.TakeDamage();
+                    shot.DeleteBullet();
+                }
             }
-        }
         
         // if player hits enemy
 
         // enemy take damage
         // handle enemy destruction, as well
 
-        foreach (objEnemy enemy in FindObjectsByType<objEnemy>(FindObjectsSortMode.None)){
-            foreach (objPlayerShot shot in objGameManager.Instance.playerShots){
-                if (CheckPlayerShotCollision(shot, enemy)){
-                    enemy.TakeDamage(objPlayer.Instance.bulletDamage);
-                    shot.DeleteBullet();
+            foreach (objEnemy enemy in objGameManager.Instance.enemyObjects){
+                foreach (objPlayerShot shot in objGameManager.Instance.playerShots){
+                    if (CheckPlayerShotCollision(shot, enemy)){
+                        enemy.TakeDamage(objPlayer.Instance.bulletDamage);
+                        shot.DeleteBullet();
+                        if(enemy.GetHP() <= 0f){
+                            enemy.EnemyDeath();
+                        }
+                    }
                 }
             }
-            
+
         }
 
     }

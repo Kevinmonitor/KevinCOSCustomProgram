@@ -10,6 +10,10 @@ using Dan.Models;
 
 public class DanqzqLeaderboardManager : MonoBehaviour
 {
+    // Before using this leaderboard library, familiarise yourself with the steps to create a new leaderboard.
+    // In a nutshell, access Danqzq's Leaderboard Creator via itch.io and create a leaderboard with the secret/public keys.
+    // Then, install the Leaderboard Creator package for Unity and connect your online leaderboard to the package's editor interface.
+
     public TMPro.TextMeshProUGUI[] rNames;
     public TMPro.TextMeshProUGUI[] rScores;
 
@@ -29,6 +33,7 @@ public class DanqzqLeaderboardManager : MonoBehaviour
 
     private void LoadEntries()
     {
+        // replace mySubmissionLeaderboard with the name of your leaderboard ID.
         Leaderboards.mySubmissionLeaderboard.GetEntries(OnSuccess, OnFail);
     }
 

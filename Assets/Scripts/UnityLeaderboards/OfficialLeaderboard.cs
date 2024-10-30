@@ -22,18 +22,35 @@ public class OfficialLeaderboard : MonoBehaviour
 
     [SerializeField] TMP_Text usernameText; 
 
-    async void Awake()
-    {
-        // start unity services.
-        await UnityServices.InitializeAsync();
+    async void Awake(){
 
+        // First, initialise Unity's cloud services.
+        await UnityServices.InitializeAsync();
     }
 
     private async void Start() {
 
+        // This block of code checks if the player's device is signed in (with a valid session token), and signs them into the leaderboard if not.
+
         AuthenticationService.Instance.SignedIn += OnSignedIn;
         AuthenticationService.Instance.SignInFailed += OnSignInFailed;
 
+        InitializationOptions hostOptions = new InitializationOptions().SetProfile("host");
+        InitializationOptions clientOptions = new InitializationOptions().SetProfile("client");
+       
+        await UnityServices.InitializeAsync(hostOptions);
+       
+        AuthenticationService.Instance.SignedIn += () =>
+        {
+            Debug.Log("Signed in: " + AuthenticationService.Instance.PlayerId);
+        };
+
+        if (AuthenticationService.Instance.IsAuthorized)
+        {
+            Debug.Log("Authorized");
+            AuthenticationService.Instance.SignOut();
+            await UnityServices.InitializeAsync(clientOptions);
+        }
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
 
         for (int i = 0; i < rNames.Length; i++)

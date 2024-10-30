@@ -34,6 +34,7 @@ namespace Systems.SceneManagement {
                 Instance = this; 
             } 
 
+            // debug
             await LoadSceneGroup(0);
         }
         

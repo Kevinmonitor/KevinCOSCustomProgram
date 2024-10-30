@@ -13,14 +13,14 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Player Bullet
+  - Enemy
+  - Player
+  - Enemy Bullet
+  - Enemy Hitbox
+  - Player Hitbox
+  - UI
   - 
   - 
   - 
@@ -42,14 +42,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 3108445341
+    locked: 0
   - name: enemy
     uniqueID: 3135265683
     locked: 0
-  - name: player
-    uniqueID: 3984830421
-    locked: 0
   - name: playerShot
     uniqueID: 2905966371
+    locked: 0
+  - name: player
+    uniqueID: 3984830421
     locked: 0
   - name: enemyShot
     uniqueID: 1983200473

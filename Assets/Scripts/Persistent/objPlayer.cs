@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.RuleTile.TilingRuleOutput;
@@ -9,21 +10,25 @@ public class objPlayer : MonoBehaviour
 	// singleton pattern
 	public static objPlayer Instance { get; private set; }
 	[SerializeField] private GameObject objPlayerHitbox;
+	[SerializeField] private Animator objPlayerAnimator;
 
-	public float bulletDamage = 10f;
+	public float bulletDamage = 5f;
 	public float bulletSpeed = 36f;
 
 	public float _fireRate = 0.05f;
 	private float _nextFire = 0;
-
-	private bool _isFiring = false;
 	
 	public float playerSpeed;
 	public float playerHitbox;
 	
-	public float playerIframes = 20f;
+	public float playerIframes = 40f;
+
+	private bool _isFiring = false;
 	private float playerIframeReductionRate = 0.01f;
 	private float playerCurrentIframes;
+
+	private float moveTimer = 1f;
+	private float currentMoveTimer = 0f;
 
     private FlashScript objFlash;
 
@@ -60,6 +65,7 @@ public class objPlayer : MonoBehaviour
 		if (playerCurrentIframes <= 0){
 			Debug.Log("damage received!");
 			objGameManager.Instance.SetLives(objGameManager.Instance.GetLives()-1);
+			objGameManager.Instance.soundManager.PlaySFX(objGameManager.Instance.soundManager.playerDamage);
 			if(objGameManager.Instance.GetLives() <= 0){
 				objGameManager.Instance.isGameOver = true;
 				objGameManager.Instance.GameOver();
@@ -74,6 +80,8 @@ public class objPlayer : MonoBehaviour
 	public objPlayerShot fireBullet(Vector2 spawnPosition, float angle){
 
 		objPlayerShot bullet = objGameManager.Instance.CreatePlayerShot(spawnPosition, bulletSpeed, angle, bulletDamage);
+		bullet.SetHitbox(0.75f);
+		objGameManager.Instance.soundManager.PlaySFX(objGameManager.Instance.soundManager.playerFire, 0.1f);
 		return bullet;
 
 	}
@@ -112,8 +120,8 @@ public class objPlayer : MonoBehaviour
 
 		Move(direction);
 
-	}
-
+	} 	
+	
 	void Move(Vector2 direction)
 	{
 
@@ -144,6 +152,32 @@ public class objPlayer : MonoBehaviour
 		//Update the player's position
 
 		transform.position = pos;
+
+		if (Input.GetAxisRaw("Horizontal") >= 0.5 || Input.GetAxisRaw("Horizontal") <= -0.5){
+			currentMoveTimer += moveTimer/20f;
+			currentMoveTimer = Mathf.Clamp(currentMoveTimer, 0f, moveTimer);
+		}
+		else{
+			currentMoveTimer = 0f;
+		}
+
+		objPlayerAnimator.SetFloat("movementLevel", currentMoveTimer);
+		
+		if (Input.GetAxisRaw("Horizontal") != 0){
+			if (Input.GetAxisRaw("Horizontal") > 0.5){
+				transform.localScale = new Vector3(-5, 5, 1);
+			}
+			else if (Input.GetAxisRaw("Horizontal") < -0.5){
+				transform.localScale = new Vector3(5, 5, 1);
+			}
+		}
+		else{
+			transform.localScale = new Vector3(5, 5, 1);
+		}
+
+		if(pos.x >= max.x || pos.x <= min.x){
+			currentMoveTimer = 0f;
+		}
 
 	}
 

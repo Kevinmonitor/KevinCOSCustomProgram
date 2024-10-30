@@ -5,7 +5,6 @@ using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class objPlayerShot : objShot
 {
-
     private float _damage = 0;
     public float GetBulletDamage(){
         return _damage;
