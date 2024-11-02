@@ -18,6 +18,7 @@ Voidventure seeks to help players learn Unity game development in an organic way
   == Difficulty system
   == Enemy wave spawning through coroutines
   == Game Over/Game Start state
+
 + Additive scene loading
   == Scenes load and unload depending on the game state
   == “Singleton” scenes are never loaded twice
