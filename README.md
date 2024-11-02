@@ -13,15 +13,15 @@ Voidventure seeks to help players learn Unity game development in an organic way
 *Sample game to test everything out!*
 
 + Basic and functional gameplay loop
-  == Movement and player input
-  == Shooting and taking damage
-  == Difficulty system
-  == Enemy wave spawning through coroutines
-  == Game Over/Game Start state
+  + Movement and player input
+  + Shooting and taking damage
+  + Difficulty system
+  + Enemy wave spawning through coroutines
+  + Game Over/Game Start state
 
 + Additive scene loading
-  == Scenes load and unload depending on the game state
-  == “Singleton” scenes are never loaded twice
+  + Scenes load and unload depending on the game state
+  + “Singleton” scenes are never loaded twice
 
 **This project uses Unity Editor 2023.2.20f1.**
 
