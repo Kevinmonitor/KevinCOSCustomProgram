@@ -34,7 +34,7 @@ public class objBulletManager : MonoBehaviour
 
         if (!target.gameObject.activeSelf || objPlayer.Instance == null) { return false; }
 
-        var rad = objPlayer.Instance.playerHitbox + target.GetHitbox();
+        var rad = objPlayer.Instance.GetHitbox() + target.GetHitbox();
         var offset = objPlayer.Instance.transform.position - target.transform.position;
         return offset.sqrMagnitude < (rad * rad); // true = collision
 
@@ -83,7 +83,7 @@ public class objBulletManager : MonoBehaviour
             foreach (objEnemy enemy in objGameManager.Instance.enemyObjects){
                 foreach (objPlayerShot shot in objGameManager.Instance.playerShots){
                     if (CheckPlayerShotCollision(shot, enemy)){
-                        enemy.TakeDamage(objPlayer.Instance.bulletDamage);
+                        enemy.TakeDamage(objPlayer.Instance.GetBulletDamage());
                         shot.DeleteBullet();
                         if(enemy.GetHP() <= 0f){
                             enemy.EnemyDeath();

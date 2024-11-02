@@ -14,6 +14,8 @@ using UnityEngine;
 
 public class OfficialLeaderboard : MonoBehaviour
 {
+    
+    // This requires you to have a Unity Cloud account and connect your project to the Unity Cloud (and Unity Version Control)
     // Create a leaderboard with this ID in the Unity Cloud Dashboard
     const string leaderboardID = "submissionLeaderboard";
 

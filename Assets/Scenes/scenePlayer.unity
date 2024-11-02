@@ -332,12 +332,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objPlayerHitbox: {fileID: 1209255409}
   objPlayerAnimator: {fileID: 1095086471}
-  bulletDamage: 10
-  bulletSpeed: 36
-  _fireRate: 0.075
-  playerSpeed: 12
-  playerHitbox: 0.1
-  playerIframes: 2
+  _bulletDamage: 7
+  _bulletSpeed: 36
+  _fireRate: 0.09
+  _playerSpeed: 11
+  _playerHitbox: 0.1
+  _playerIframes: 30
 --- !u!212 &1095086467
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flashMaterial: {fileID: 2100000, guid: 6bd6555bbf210174cb638ebdcd51f975, type: 2}
-  duration: 0.02
+  duration: 0.01
 --- !u!95 &1095086471
 Animator:
   serializedVersion: 7

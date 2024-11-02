@@ -83,9 +83,7 @@ public class objGameManager : MonoBehaviour
 			Instance = this; 
 		} 
 		
-		QualitySettings.vSyncCount = 1;
-		//Application.targetFrameRate = 60;
-
+		Application.targetFrameRate
 		SetLives(1);
 		scoreText.text = "0";
 		SetupPool();

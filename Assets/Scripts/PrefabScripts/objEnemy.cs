@@ -34,7 +34,7 @@ public class objEnemy : MonoBehaviour
     }
 
     public void EnemyDeath(){
-        int score = objGameManager.Instance.CalculateScore(this, objPlayer.Instance.playerHitbox * 100f, 10, 1000);
+        int score = objGameManager.Instance.CalculateScore(this, objPlayer.Instance.GetHitbox() * 100f, 10, 1000);
         objGameManager.Instance.AddScore(score);
         objGameManager.Instance.CreateExplosion(transform.position);
         RemoveEnemy();

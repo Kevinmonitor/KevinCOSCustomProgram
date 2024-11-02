@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-// http://dreamlo.com/lb/yRGUrLprVEm_2cJPBpi0DgvTRXrfmyO0S4ug0Luw9Ppg
 public class HighScores : MonoBehaviour
 {
-
+   
+    // This is a Sample Leaderboard.
+    // Remember, you must make your own leaderboard when developing your game, and replace these sample codes with your leaderboard's codes. (privateCode, publicCode)
     public static HighScores Instance {get; private set;} //Required for STATIC usability
 
     const string privateCode = "yRGUrLprVEm_2cJPBpi0DgvTRXrfmyO0S4ug0Luw9Ppg";  //Key to Upload New Info

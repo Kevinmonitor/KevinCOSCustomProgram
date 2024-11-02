@@ -21,10 +21,10 @@ public class objPlayer : MonoBehaviour
 	[SerializeField] private float _playerSpeed = 5f;
     [SerializeField] private float _playerHitbox = 0.5f;
 
-    [SerializeField] private float _playerIframes = 4f;
+    [SerializeField] private float _playerIframes = r;
 
 	private bool _isFiring = false;
-	private float _playerIframeReductionRate = 0.2f;
+	private float _playerIframeReductionRate = 0.1f;
 	private float _playerCurrentIframes = 0f;
 
 	private float _moveTimer = 1f;
@@ -89,13 +89,12 @@ public class objPlayer : MonoBehaviour
 	void Update()
 	{
 		float x = Input.GetAxisRaw("Horizontal");//the value will be -1, 0 or 1 (for left, no input, and right)
-		float y = Input.GetAxisRaw("Vertical");//the value will be -1, 0 or 1 (for down, no input, and up
+		float y = Input.GetAxisRaw("Vertical");//the value will be -1, 0 or 1 (for down, no input, and up)
 
-        if (_playerCurrentIframes > 0){
+		if (_playerCurrentIframes > 0){
 			_playerCurrentIframes -= _playerIframeReductionRate;
 			_playerCurrentIframes = Mathf.Clamp(_playerCurrentIframes, 0, _playerIframes);
-			if (_playerCurrentIframes >= 1 && Mathf.FloorToInt(_playerCurrentIframes) % 4 == 0){
-				Debug.Log(Mathf.FloorToInt(_playerCurrentIframes));
+			if (_playerCurrentIframes >= 0.5f && (int)(_playerCurrentIframes * 60) % 6 == 0){
 				objFlash.Flash();
 			}
 		}
